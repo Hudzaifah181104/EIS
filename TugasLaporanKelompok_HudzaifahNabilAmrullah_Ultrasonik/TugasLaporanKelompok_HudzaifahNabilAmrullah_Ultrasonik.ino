@@ -3,7 +3,7 @@
 #define TRIGGER_PIN 11
 #define ECHO_PIN 12
 
-#define MAX_DISTANCE 200
+#define MAX_DISTANCE 350
 
 NewPing sonar (TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
 
